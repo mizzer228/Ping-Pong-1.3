@@ -1,0 +1,63 @@
+#ball{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    left:800px; top:500px;
+}
+
+#player{
+    position: absolute;
+    width: 20px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    left:50px; top:500px;
+}
+
+#player_2{
+    position: absolute;
+    width: 20px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    left:1850px; top:500px;
+    
+}
+
+body{
+    overflow:hidden;
+    background-color: rgb(0, 0, 0);
+    font-family: s;
+}
+
+
+
+#line{
+    margin: 20px 0;
+	padding: 0;
+	height: 10px;
+	border: none;
+	background: linear-gradient(to right, transparent 50%, rgb(255, 255, 255) 50%), 
+				linear-gradient(to right, rgb(0, 0, 0), rgb(26, 26, 26));
+	background-size: 16px 2px, 100% 2px;
+    left:950px; top:10px;
+    transform: rotate(270deg);
+}
+
+
+#scores_p1{
+    position: absolute;
+    left: 620px;
+font-size: 100px;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Silkscreen', cursive;
+}
+
+#scores_p2{
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    position: absolute;
+    left: 1200px;
+font-size: 100px;
+
+}
